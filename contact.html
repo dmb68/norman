@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My First Bootstrap Page</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+            <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-dark navbar-dark
+                    col-12">
+
+                <!-- Brand -->
+                <a class="navbar-brand" href="./index.html">Logo</a>
+                <!-- Responsive Button for the smaller menu -->
+                <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                         <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                               data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                               Shows
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="./the_norm_show.html">The Norm Show</a>
+                                <a class="dropdown-item" href="./sports_show.html">Sports Show with Norm Macdonald</a>
+                                <a class="dropdown-item" href="./stan_hooper.html">A Minute with Stan Hooper</a>
+                            </div>
+                        </li>
+                        <!-- Links -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        <div class="row">
+        <p class="col-1">Col 1</p>
+        <p class="col-1">Col 2</p>
+        <p class="col-1">Col 3</p>
+        <p class="col-1">Col 4</p>
+        <p class="col-1">Col 5</p>
+        <p class="col-1">Col 6</p>
+        <p class="col-1">Col 7</p>
+        <p class="col-1">Col 8</p>
+        <p class="col-1">Col 9</p>
+        <p class="col-1">Col 10</p>
+        <p class="col-1">Col 11</p>
+        <p class="col-1">Col 12</p>
+        </div>
+        <div class="col-sm-4  text-center">
+            <h2>h2 Bootstrap heading (24px)</h2>
+            <h3>h2 Bootstrap heading (18px)</h3>
+        </div>
+        <form action="submission.html" method="POST">
+            <h1>Contact Us!</h1>
+            <section class="formContactReasons">
+                <span>Select your reason for contacting:</span>
+                <div>
+                    <input type="checkbox" id="suggestNew" name="contactReason" value="suggestNew">
+                    <label for="suggestNew">Suggesting new content</label>
+                    <br>
+                    <input type="checkbox" name="contactReason" id="otherReason" value="otherReason">
+                    <label for="otherReason">Other reasons</label>
+                </div>
+            </section>
+            <section class="formTextArea">
+                <br>
+                <label for="textarea">Enter text:</label>
+                <br>
+                <textarea id="textarea" name="textarea" rows="6" cols="30" required></textarea>
+            </section>
+            <section class="formEmail">
+                <br>
+                <label for="formEmailText">Enter your email:</label>
+                <br>
+                <input type="text" name="formEmail" id="formEmailText" value="" required>
+            </section>
+            <section class="formSubmit">
+                <br>
+                <input type="submit" value="Submit"></input>
+            </section>
+        </form>
+    </div>
+ <footer class="footer page-footer font-small ">
+     <div class="container">
+        <div class="row">
+            <span class="text-muted">&copy; Dillon Benik, 2026 |  Terms Of Use  |  Privacy Statement</span>
+        </div>
+     </div>
+  </footer>
+</div>
+
+
+    <!-- Javascript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
+
+</body>
+</html>

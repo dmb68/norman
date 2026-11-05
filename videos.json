@@ -1,0 +1,9 @@
+[
+  {
+    "title": "My First Video",
+    "thumbnail": "thumbs/first.jpg",
+    "description": "A short intro to the channel.",
+    "url": "https://youtu.be/abc123",
+    "category": "main"
+  }
+]

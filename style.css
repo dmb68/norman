@@ -1,0 +1,27 @@
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+#card-theNormShow {
+    object-position: top;
+}
+
+#card-sportsShow {
+    object-position: 0% 20%;
+}
+#card-stanHooper {
+    object-position: 0% 20%;
+}
+
+/* for video feeds*/
+#feed {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+.video-card img { width: 100%; border-radius: 6px; }
+.video-card h3 { margin: 8px 0 4px; }
+.video-card p { margin: 0; color: #555; }
+.video-card a { text-decoration: none; color: inherit; }
