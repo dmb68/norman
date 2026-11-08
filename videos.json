@@ -1,9 +1,226 @@
 [
   {
-    "title": "My First Video",
-    "thumbnail": "thumbNorm.jpg",
-    "description": "A short intro to the channel.",
-    "url": "https://youtu.be/abc123",
-    "category": "main"
+    "title": "Pilot",
+    "url": "https://youtu.be/a7DOB5OSKhY?si=wuYqa2ykJRF50psb",
+    "season": "1",
+    "episode": "1",
+    "category": "stan"
+  },
+  {
+    "title": "Stan Goes to Washington",
+    "url": "https://youtu.be/8Vh8fh_JL2Q?si=Y2bolhi7HME9z0-Q3",
+    "season": "1",
+    "episode": "2",
+    "category": "stan"
+  },
+  {
+    "title": "The Hustle",
+    "url": "https://youtu.be/ARhapuoru3o?si=E6kPXcM3RbUkW6Om",
+    "season": "1",
+    "episode": "3",
+    "category": "stan"
+  },
+  {
+    "title": "An Old Fashioned Thanksgiving",
+    "url": "https://youtu.be/MSOPo7fj4So?si=HQUkymdi1T9YtzM3",
+    "season": "1",
+    "episode": "4",
+    "category": "stan"
+  },
+  {
+    "title": "Bye, Bye, Miss American Pie",
+    "url": "https://youtu.be/3lJnoF_vU0o?si=v_rTut3p8mgJmYmd",
+    "season": "1",
+    "episode": "5",
+    "category": "stan"
+  },
+  {
+    "title": "Fear Finds the Falls",
+    "url": "https://youtu.be/MSOPo7fj4So?si=HQUkymdi1T9YtzM3",
+    "season": "1",
+    "episode": "6",
+    "category": "stan"
+  },
+  {
+    "title": "Stan's Biggest Fan",
+    "url": "https://youtu.be/MSOPo7fj4So?si=HQUkymdi1T9YtzM3",
+    "season": "1",
+    "episode": "7",
+    "category": "stan"
+  },
+  {
+    "title": "Good Golly, Miss Molly",
+    "url": "https://youtu.be/MSOPo7fj4So?si=HQUkymdi1T9YtzM3",
+    "season": "1",
+    "episode": "8",
+    "category": "stan"
+  },
+  {
+    "title": "Snow Job",
+    "url": "https://youtu.be/MSOPo7fj4So?si=HQUkymdi1T9YtzM3",
+    "season": "1",
+    "episode": "9",
+    "category": "stan"
+  },
+  {
+    "title": "Ghost Family",
+    "url": "https://youtu.be/MSOPo7fj4So?si=HQUkymdi1T9YtzM3",
+    "season": "1",
+    "episode": "10",
+    "category": "stan"
+  },
+  {
+    "title": "The Milkman",
+    "url": "https://youtu.be/MSOPo7fj4So?si=HQUkymdi1T9YtzM3",
+    "season": "1",
+    "episode": "11",
+    "category": "stan"
+  },
+  {
+    "title": "The Good Doctor",
+    "url": "https://youtu.be/MSOPo7fj4So?si=HQUkymdi1T9YtzM3",
+    "season": "1",
+    "episode": "12",
+    "category": "stan"
+  },
+  {
+    "title": "Stan's Best Friend",
+    "url": "https://youtu.be/MSOPo7fj4So?si=HQUkymdi1T9YtzM3",
+    "season": "1",
+    "episode": "13",
+    "category": "stan"
+  },
+  {
+    "title": "Norm and the Prototype",
+    "url": "https://youtu.be/XmM0rGJRyLo?si=YosPvv4boYOmRV6V",
+    "season": "1",
+    "episode": "1",
+    "category": "normShow"
+  },
+  {
+    "title": "Norm Dates a Client",
+    "url": "https://youtu.be/vjWogXVqN0k?si=FdQv5O5-kM3qjT7E",
+    "season": "1",
+    "episode": "2",
+    "category": "normShow"
+  },
+  {
+    "title": "Norm Dates Danny's Dad",
+    "url": "https://youtu.be/bPA-tm0gqMU?si=vO5_lHwaY31KoE8X",
+    "season": "1",
+    "episode": "3",
+    "category": "normShow"
+  },
+  {
+    "title": "While You Weren't Sleeping",
+    "url": "https://youtu.be/3ULDO08Cvng?si=Hfi7tbeUzq3qDIGg",
+    "season": "1",
+    "episode": "4",
+    "category": "normShow"
+  },
+  {
+    "title": "My Name Is Norm",
+    "url": "https://youtu.be/PJ_Byci5LQQ?si=eAk0csslHS4T0xCB",
+    "season": "1",
+    "episode": "5",
+    "category": "normShow"
+  },
+  {
+    "title": "The New Boss",
+    "url": "https://youtu.be/xiqmYcNm0u0?si=msD69tC9C2hPLWBz",
+    "season": "1",
+    "episode": "6",
+    "category": "normShow"
+  },
+  {
+    "title": 	"Denby's Kid",
+    "url": "https://youtu.be/HYfJg65lWG8?si=uM_9c6SFLuRzGvHO",
+    "season": "1",
+    "episode": "7",
+    "category": "normShow"
+  },
+  {
+    "title": "Drive, Norm Said",
+    "url": "https://youtu.be/fn_LxaV5JYQ?si=yhA2AJbzZAioon7R",
+    "season": "1",
+    "episode": "8",
+    "category": "normShow"
+  },
+  {
+    "title": "Norm, Crusading Social Worker",
+    "url": "https://youtu.be/dFOjna_RZI8?si=UD4SHgJ-ul7ikXO4",
+    "season": "1",
+    "episode": "9",
+    "category": "normShow"
+  },
+  {
+    "title": "Norm's Coach",
+    "url": "https://youtu.be/W-9Gsh0Z39w?si=9B2B_S1xzp0yB1ea",
+    "season": "1",
+    "episode": "10",
+    "category": "normShow"
+  },
+  {
+    "title": "Apr 12, 2011",
+    "url": "https://youtu.be/S9qa5E03OkI?si=BwgCg53gIUS9twA7",
+    "season": "1",
+    "episode": "1",
+    "category": "sports"
+  },
+  {
+    "title": "April 19, 2011",
+    "url": "https://youtu.be/0uJhPYsOCNA?si=_n864JdmzrK8M9wu",
+    "season": "1",
+    "episode": "2",
+    "category": "sports"
+  },
+  {
+    "title": "April 26, 2011",
+    "url": "https://youtu.be/pEeodFkPQs0?si=nWqriFstHw_cP3R4",
+    "season": "1",
+    "episode": "3",
+    "category": "sports"
+  },
+  {
+    "title": "May 3, 2011",
+    "url": "https://youtu.be/pEeodFkPQs0?si=HRNnL3QjHcnCCb3p",
+    "season": "1",
+    "episode": "4",
+    "category": "sports"
+  },
+  {
+    "title": "May 10, 2011",
+    "url": "https://youtu.be/puyhprIMgh4?si=Lb7nJ3MufCrl2xhR",
+    "season": "1",
+    "episode": "5",
+    "category": "sports"
+  },
+  {
+    "title": "May 17, 2011",
+    "url": "https://youtu.be/gmOMs6uvqcg?si=W_06ler4ErvGQICU",
+    "season": "1",
+    "episode": "6",
+    "category": "sports"
+  },
+  {
+    "title": "May 24, 2011",
+    "url": "https://youtu.be/F7FQ_9H3uYQ?si=W0lDKMdrklZIrBm5",
+    "season": "1",
+    "episode": "7",
+    "category": "sports"
+  },
+  {
+    "title": "May 31, 2011",
+    "url": "https://youtu.be/oIzWm2dyv0Q?si=6YTAGssDfzN3x1pM",
+    "season": "1",
+    "episode": "8",
+    "category": "sports"
+  },
+  {
+    "title": "June 7, 2011",
+    "url": "https://youtu.be/eIOe8tDpioU?si=mSgq7Bn2opFN8u7h",
+    "season": "1",
+    "episode": "9",
+    "category": "sports"
   }
 ]

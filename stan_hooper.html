@@ -9,6 +9,7 @@
           integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
           crossorigin="anonymous">
     <link href="css/main.css" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
 
 </head>
 <body>
@@ -61,11 +62,12 @@
             <p class="col-1">Col 11</p>
             <p class="col-1">Col 12</p>
             </div>
-        
-            <!--video feed-->
-            <div id="feed"></div>
-
         </div>
+    
+    <!--video feed-->
+            <div id="feed"></div>
+    <br> <!--to prevent last video from being covered from copyright-->
+        
     <footer class="footer page-footer font-small ">
         <div class="container">
             <div class="row">
@@ -81,7 +83,7 @@
             integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
             crossorigin="anonymous"></script>
     <script>
-        const CATEGORY = "main";   // change this per page
+        const CATEGORY = "stan";   // change this per page
 
         fetch("videos.json")
         .then(res => res.json())
@@ -93,11 +95,10 @@
                 const card = document.createElement("div");
                 card.className = "video-card";
                 card.innerHTML = `
-                <a href="${v.url}">
-                    <img src="${v.thumbnail}" alt="${v.title}" loading="lazy">
-                    <h3>${v.title}</h3>
+                <a href="${v.url}" target="_blank">
+                    <h6>${v.title}</h6>
                 </a>
-                <p>${v.description}</p>
+                <p>S${v.season} E${v.episode}</p>
                 `;
                 feed.appendChild(card);
             });
