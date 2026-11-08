@@ -20,26 +20,14 @@ body {
 }
 
 /* for video feeds*/
-#feed {
-    /*
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-    gap: 20px;
-    padding: 20px;
-    */
-    width: 25%;
+.table-wrap {
+    max-width: 20%;
     margin: 0 auto;
-    
+    min-width: 300px;
 }
-.video-card {
-    background-color: rgb(39, 92, 152);
-    padding: .75% .75%;
-    border-radius: 20px;
-    margin: 1rem;
+.id {
+    color: rgba(255, 255, 255, 0.698);
 }
-
-/*
-.video-card h3 { margin: 8px 0 4px; }
-.video-card p { margin: 0; color: #555; }
-.video-card a { text-decoration: none; color: inherit; }
-*/
+.title {
+    min-width: 200px;
+}
